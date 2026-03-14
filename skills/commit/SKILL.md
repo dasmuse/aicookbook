@@ -1,13 +1,13 @@
 ---
 name: commit
-description: Quick commit and push with minimal, clean messages
+description: Quick commit with minimal, clean messages
 model: haiku
 allowed-tools: Bash(git :*), Bash(npm :*), Bash(pnpm :*)
 ---
 
 # Commit
 
-Quick commit with conventional message format, then push.
+Quick commit with conventional message format.
 
 ## Context
 
@@ -31,12 +31,10 @@ Quick commit with conventional message format, then push.
 
 3. **Commit**: `git commit -m "message"`
 
-4. **Push**: `git push`
-
 ## Rules
 
 - SPEED OVER PERFECTION: Generate one good message and commit
 - NO INTERACTION: Never ask questions - analyze and commit
 - AUTO-STAGE: If nothing staged, stage everything
-- AUTO-PUSH: Always push after committing
+- NO-PUSH: Never push after committing
 - IMPERATIVE MOOD: "add", "update", "fix" not past tense
