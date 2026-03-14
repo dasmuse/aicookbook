@@ -1,7 +1,7 @@
 ---
 name: prompt-crafting
 description: Use when the user asks to create, write, or optimize a prompt for a subagent, an AI task, or any reusable LLM instruction — walks through gathering requirements and outputs a ready-to-use .md file
-argument-hint: [description] or [expert] for advanced prompt engineering mode
+argument-hint: "[description] or [expert] for advanced prompt engineering mode"
 ---
 
 # Crafting Optimized Prompts
