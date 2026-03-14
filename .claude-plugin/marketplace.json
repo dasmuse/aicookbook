@@ -3,6 +3,9 @@
   "owner": {
     "name": "dasmuse"
   },
+  "metadata": {
+    "description": "Collection of reusable Claude Code skills — memory management, prompt crafting, and quick commits"
+  },
   "plugins": [
     {
       "name": "aicookbook",
