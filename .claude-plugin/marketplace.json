@@ -1,0 +1,22 @@
+{
+  "name": "aicookbook-marketplace",
+  "owner": {
+    "name": "dasmuse"
+  },
+  "plugins": [
+    {
+      "name": "aicookbook",
+      "source": "./",
+      "description": "Reusable skills for Claude Code: claude-memory, prompt-crafting, and commit",
+      "version": "1.0.0",
+      "author": {
+        "name": "dasmuse"
+      },
+      "repository": "https://github.com/dasmuse/aicookbook",
+      "license": "MIT",
+      "keywords": ["skills", "memory", "prompt", "commit"],
+      "category": "workflows",
+      "strict": false
+    }
+  ]
+}

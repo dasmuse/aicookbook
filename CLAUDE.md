@@ -38,3 +38,12 @@ The body is markdown instructions that Claude follows when the skill is invoked.
 - Skills are pure markdown — no build step, no dependencies
 - Reference files are read lazily by the skill at runtime, not preloaded
 - Skill frontmatter `description` field is critical — it determines when Claude auto-triggers the skill
+
+## Distribution
+
+Skills are distributed via two channels (no custom CLI needed):
+
+- **Plugin marketplace**: `.claude-plugin/marketplace.json` enables `/plugin marketplace add dasmuse/aicookbook`
+- **Vercel skills CLI**: `skills/*/SKILL.md` convention enables `npx skills add dasmuse/aicookbook`
+
+When adding a new skill, create `skills/<skill-name>/SKILL.md` and bump the `version` in `.claude-plugin/marketplace.json`. Both channels discover it automatically.
