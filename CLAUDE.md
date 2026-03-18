@@ -17,6 +17,7 @@ Each skill lives in `skills/<skill-name>/` with:
 - **claude-memory** — Create and optimize CLAUDE.md files and `.claude/rules/` for projects
 - **prompt-crafting** — Interactive workflow to craft optimized prompts for subagents/AI tasks
 - **commit** — Quick conventional commit + push (runs on Haiku)
+- **postgres-expert** — Context-aware database expert: schema exploration, queries, analysis, performance diagnosis, writes, and migrations via MCP Postgres
 
 ## Skill Anatomy
 
