@@ -1,1 +1,4 @@
 docs/
+
+# Postgres expert: populated schema cache (user/db-specific)
+skills/postgres-expert/references/schema_cache.md
