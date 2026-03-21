@@ -18,6 +18,7 @@ Each skill lives in `skills/<skill-name>/` with:
 - **prompt-crafting** — Interactive workflow to craft optimized prompts for subagents/AI tasks
 - **commit** — Quick conventional commit + push (runs on Haiku)
 - **postgres-expert** — Context-aware database expert: schema exploration, queries, analysis, performance diagnosis, writes, and migrations via MCP Postgres
+- **skill-compare** — Compare competing skills from different providers side-by-side (fast/deep modes)
 
 ## Skill Anatomy
 
