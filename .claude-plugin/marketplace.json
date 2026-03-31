@@ -10,14 +10,14 @@
     {
       "name": "aicookbook",
       "source": "./",
-      "description": "Reusable skills for Claude Code: claude-memory, prompt-crafting, commit, postgres-expert, and skill-compare",
-      "version": "1.3.0",
+      "description": "Reusable skills for Claude Code: claude-memory, prompt-crafting, commit, postgres-expert, skill-compare, and secrets-guard",
+      "version": "1.4.0",
       "author": {
         "name": "dasmuse"
       },
       "repository": "https://github.com/dasmuse/aicookbook",
       "license": "MIT",
-      "keywords": ["skills", "memory", "prompt", "commit", "postgres", "sql", "compare", "diff"],
+      "keywords": ["skills", "memory", "prompt", "commit", "postgres", "sql", "compare", "diff", "security", "secrets", "guard", "hooks"],
       "category": "workflows",
       "strict": false
     }

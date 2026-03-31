@@ -19,6 +19,7 @@ Each skill lives in `skills/<skill-name>/` with:
 - **commit** — Quick conventional commit + push (runs on Haiku)
 - **postgres-expert** — Context-aware database expert: schema exploration, queries, analysis, performance diagnosis, writes, and migrations via MCP Postgres
 - **skill-compare** — Compare competing skills from different providers side-by-side (fast/deep modes)
+- **secrets-guard** — Install PreToolUse hooks to block access to sensitive files (.env, keys, credentials, history)
 
 ## Skill Anatomy
 
