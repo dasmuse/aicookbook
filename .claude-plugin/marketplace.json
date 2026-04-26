@@ -4,20 +4,20 @@
     "name": "dasmuse"
   },
   "metadata": {
-    "description": "Collection of reusable Claude Code skills — memory management, prompt crafting, quick commits, postgres expert, and skill comparison"
+    "description": "Collection of reusable Claude Code skills — memory management, prompt crafting, quick commits, postgres expert, skill comparison, and architecture explainer"
   },
   "plugins": [
     {
       "name": "aicookbook",
       "source": "./",
-      "description": "Reusable skills for Claude Code: claude-memory, prompt-crafting, commit, postgres-expert, skill-compare, and secrets-guard",
-      "version": "1.4.0",
+      "description": "Reusable skills for Claude Code: claude-memory, prompt-crafting, commit, postgres-expert, skill-compare, secrets-guard, and exarch",
+      "version": "1.5.0",
       "author": {
         "name": "dasmuse"
       },
       "repository": "https://github.com/dasmuse/aicookbook",
       "license": "MIT",
-      "keywords": ["skills", "memory", "prompt", "commit", "postgres", "sql", "compare", "diff", "security", "secrets", "guard", "hooks"],
+      "keywords": ["skills", "memory", "prompt", "commit", "postgres", "sql", "compare", "diff", "security", "secrets", "guard", "hooks", "architecture", "diagrams", "exarch"],
       "category": "workflows",
       "strict": false
     }
